@@ -3,6 +3,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 // Components
 import Title from "./components/Title";
+import Board from "./components/Board";
 
 // Styles
 
@@ -12,6 +13,7 @@ function App() {
     return (
         <div>
             <Title />
+            <Board />
         </div>
     );
 }
