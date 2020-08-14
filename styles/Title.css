@@ -1,0 +1,43 @@
+/* Variables */
+:root {
+    --blue: #597ef7;
+    --orange: #ff7a45;
+}
+
+div {
+    font-family: "Roboto", serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: xxx-large;
+}
+
+p {
+    font-size: xx-small;
+}
+
+a {
+    color: var(--blue);
+    opacity: 100%;
+    transition: all 0.5s ease;
+}
+
+a:hover {
+    opacity: 35%;
+    transition: all 0.5s ease;
+}
+
+a:visited {
+    color: var(--orange);
+}
+
+mark.blue {
+    background: none;
+    color: var(--blue);
+}
+
+mark.orange {
+    background: none;
+    color: var(--orange);
+}
