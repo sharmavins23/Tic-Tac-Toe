@@ -2,7 +2,7 @@
 import React from "react";
 
 // Blank Icon
-function BlankIcon(props) {
+function BlankIcon() {
     // Render
     return (
         <svg
