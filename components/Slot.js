@@ -10,7 +10,7 @@ function Slot(props) {
     // Render
     return (
         <div>
-            <button disabled={}>Click me!</button>
+            <button disabled={false}>Click me!</button>
         </div>
     );
 }
