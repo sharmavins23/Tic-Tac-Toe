@@ -1,6 +1,10 @@
 // Imports
 import React, { useState } from "react";
 import styles from "../stylesheet.css";
+// Images
+import BlankIcon from "./BlankIcon";
+import CircleIcon from "./CircleIcon";
+import CrossIcon from "./CrossIcon";
 
 // Individual TTT slot (button)
 function Slot(props) {
@@ -10,7 +14,10 @@ function Slot(props) {
     // Render
     return (
         <div>
-            <button disabled={false}>Click me!</button>
+            {/* <button disabled={false}>
+                <img src={CrossIcon} />
+            </button> */}
+            <BlankIcon />
         </div>
     );
 }
