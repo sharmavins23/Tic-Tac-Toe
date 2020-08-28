@@ -14,7 +14,9 @@ function Slot(props) {
     // Render
     return (
         <div>
-            <BlankIcon />
+            <button>
+                <BlankIcon />
+            </button>
         </div>
     );
 }
