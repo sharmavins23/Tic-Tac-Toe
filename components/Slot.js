@@ -14,9 +14,6 @@ function Slot(props) {
     // Render
     return (
         <div>
-            {/* <button disabled={false}>
-                <img src={CrossIcon} />
-            </button> */}
             <BlankIcon />
         </div>
     );
